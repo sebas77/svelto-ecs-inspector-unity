@@ -16,7 +16,7 @@ or best running the node js application found at https://github.com/sebas77/svel
 
 FAQ:
 
-why engines are found multiple times like
+why are engines shown multiple times? like
 
 ![image](https://user-images.githubusercontent.com/945379/208312024-8a996eae-cfa7-4f2e-83f8-b0f4c41750b7.png)
 
