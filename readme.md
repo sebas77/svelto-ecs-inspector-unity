@@ -11,7 +11,7 @@ Run the game.
 
 For the client:
 
-you can either user the URL: akrogame.github.io/svelto-ecs-inspector/entities/14/0?url=localhost%3A9300
+you can either user the URL: https://akrogame.github.io/svelto-ecs-inspector/entities/14/0?url=localhost%3A9300
 or best running the node js application found at https://github.com/sebas77/svelto-ecs-inspector/tree/main/inspector
 
 FAQ:
