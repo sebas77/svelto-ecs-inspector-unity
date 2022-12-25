@@ -43,6 +43,8 @@ static public class SveltoInspector
 
             await Task.Delay(100);
         }
+
+        wrapper.server.Stop();
     }
 
     public class WebSocketWrapper: IWebSocket
