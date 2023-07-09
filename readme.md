@@ -1,6 +1,6 @@
 Compatible only with Unity 2021.3 and above
 
-* copy the UnityDLL~/AkroGame.ECS.Analyzer.dll and meta file (important too) and copy them in your project asset folder (compiled from https://github.com/akrogame/svelto-ecs-inspector)
+* copy the UnityDLL~/AkroGame.ECS.Analyzer.dll and meta file (important too) and copy them in your project asset folder (compiled from https://github.com/akrogame/svelto-ecs-inspector). This dll may need the package https://github.com/merryyellow/code-analysis-3-11 installed too (Microsoft.CodeAnalysis.CSharp dependency)
 * then install the Unity package https://github.com/James-Frowen/SimpleWebTransport in your Unity project using Svelto. Follow the readme instructions to install the unity package
 * then install this repo package from the github source: git@github.com:sebas77/svelto-ecs-inspector-unity.git
 * then in your main context add the line
@@ -28,7 +28,7 @@ A. to prevent this unity error: AkroGame.ECS.Analyzer references netstandard, Ve
 
 Q. why is there a UnityDLL~ folder in the package? 
 
-A. folders ending with ~ are ignored by Unity. You must copy the AkroGame.ECS.Analyzer.dll to your Asset folder or any folder with an asmdef file that uses Svelto.
+A. folders ending with ~ are ignored by Unity. You must copy the AkroGame.ECS.Analyzer.dll and install the package https://github.com/merryyellow/code-analysis-3-11
 
 
 
