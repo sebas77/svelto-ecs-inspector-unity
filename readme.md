@@ -16,8 +16,14 @@ or best running the node js application found at https://github.com/sebas77/svel
 
 FAQ:
 
-why are engines shown multiple times? like
+Q. why are engines shown multiple times? like
 
 ![image](https://user-images.githubusercontent.com/945379/208312024-8a996eae-cfa7-4f2e-83f8-b0f4c41750b7.png)
 
-each copy is a separate query found in the engine
+A. each copy is a separate query found in the engine
+
+Q. why is the analyzer targinet .net standard 2.0?
+A. to prevent this unity error: AkroGame.ECS.Analyzer references netstandard, Version=2.1.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51. A roslyn analyzer should reference netstandard version 2.0
+
+
+
