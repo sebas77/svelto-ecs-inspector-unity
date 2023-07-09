@@ -12,7 +12,20 @@ Run the game.
 For the client:
 
 you can either use the URL: https://akrogame.github.io/svelto-ecs-inspector/
-or best running the node js application found at https://github.com/sebas77/svelto-ecs-inspector/tree/main/inspector
+or best running the node js application found at https://github.com/sebas77/svelto-ecs-inspector/tree/main/inspector but to run locally you need to apply this change
+```
+--- a/inspector/src/App.tsx
++++ b/inspector/src/App.tsx
+@@ -26,7 +26,7 @@ function App() {
+     <QueryClientProvider client={queryClient}>
+       <ThemeProvider theme={theme}>
+         <Container className="App" maxWidth={false}>
+-          <BrowserRouter basename="/svelto-ecs-inspector">
++          <BrowserRouter basename="/">
+             <Routes>
+               <Route path="" element={<Main />}>
+                 <Route path="/" element={<Dashboard />} />
+```
 
 FAQ:
 
